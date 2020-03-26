@@ -1,11 +1,44 @@
 {
+    "angelfish": {
+        "price": 1500,
+        "location": "river",
+        "time": { "start": "0900", "end": "1600" },
+        "months": {
+            "northern": [5, 6, 7, 8, 9],
+            "southern": [11, 12, 1, 2, 3]
+        }
+    },
+    "betta": {
+        "price": 2500,
+        "location": "river",
+        "time": { "start": "0900", "end": "1600" },
+        "months": {
+            "northern": [5, 6, 7, 8, 9, 10],
+            "southern": [11, 12, 1, 2, 3]
+        }
+    },
     "bitterling": {
         "price": 900,
         "location": "river",
-        "time": {
-            "start": "0000",
-            "end": "0000"
-        },
+        "time": { "start": "0000", "end": "0000" },
+        "months": {
+            "northern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "southern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        }
+    },
+    "black bass": {
+        "price": 400,
+        "location": "river",
+        "time": { "start": "0000", "end": "0000" },
+        "months": {
+            "northern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "southern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        }
+    },
+    "bluegill": {
+        "price": 180,
+        "location": "river",
+        "time": { "start": "0900", "end": "1600" },
         "months": {
             "northern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
             "southern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
@@ -14,22 +47,45 @@
     "carp": {
         "price": 300,
         "location": "pond",
-        "time": {
-            "start": "0000",
-            "end": "0000"
-        },
+        "time": { "start": "0000", "end": "0000" },
         "months": {
             "northern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
             "southern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
         }
     },
+    "catfish": {
+        "price": 900,
+        "location": "pond",
+        "time": { "start": "1600", "end": "0900" },
+        "months": {
+            "northern": [5, 6, 7, 8, 9, 10],
+            "southern": [10, 11, 12, 1, 2, 3, 4]
+        }
+    },
+    "char": {
+        "price": 3800,
+        "location": "river",
+        "time": { "start": "1600", "end": "0900" },
+        "months": {
+            "northern": [3, 4, 5, 6, 9, 10, 11],
+            "southern": [9, 10, 11, 12, 3, 4, 5]
+        },
+        "notes": "clifftop"
+    },
+    "cherry salmon": {
+        "price": 1000,
+        "location": "river",
+        "time": { "start": "1600", "end": "0900" },
+        "months": {
+            "northern": [3, 4, 5, 6, 9, 10, 11],
+            "southern": [3, 4, 5, 9, 10, 11, 12]
+        },
+        "notes": "clifftop"
+    },
     "crawfish": {
         "price": 200,
         "location": "pond",
-        "time": {
-            "start": "0000",
-            "end": "0000"
-        },
+        "time": { "start": "0000", "end": "0000" },
         "months": {
             "northern": [4, 5, 6, 7, 8, 9],
             "southern": [10, 11, 12, 1, 2, 3]
@@ -38,10 +94,7 @@
     "crucian carp": {
         "price": 160,
         "location": "river",
-        "time": {
-            "start": "0000",
-            "end": "0000"
-        },
+        "time": { "start": "0000", "end": "0000" },
         "months": {
             "northern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
             "southern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
@@ -50,10 +103,7 @@
     "dace": {
         "price": 240,
         "location": "river",
-        "time": {
-            "start": "1600",
-            "end": "0900"
-        },
+        "time": { "start": "1600", "end": "0900" },
         "months": {
             "northern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
             "southern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
@@ -62,10 +112,7 @@
     "freshwater goby": {
         "price": 400,
         "location": "river",
-        "time": {
-            "start": "1600",
-            "end": "0900"
-        },
+        "time": { "start": "1600", "end": "0900" },
         "months": {
             "northern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
             "southern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
@@ -74,94 +121,181 @@
     "frog": {
         "price": 0,
         "location": "pond",
-        "time": {
-            "start": "0000",
-            "end": "0000"
-        },
+        "time": { "start": "0000", "end": "0000" },
         "months": {
             "northern": [5, 6, 7, 8],
             "southern": [11, 12, 1, 2]
         }
     },
+    "golden trout": {
+        "price": 15000,
+        "location": "river",
+        "time": { "start": "1600", "end": "0900" },
+        "months": {
+            "northern": [3, 4, 5, 9, 10, 11],
+            "southern": [9, 10, 11, 3, 4, 5]
+        },
+        "notes": "clifftop"
+    },
     "goldfish": {
         "price": 1300,
         "location": "pond",
-        "time": {
-            "start": "0000",
-            "end": "0000"
-        },
+        "time": { "start": "0000", "end": "0000" },
         "months": {
             "northern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
             "southern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        }
+    },
+    "giant snakehead": {
+        "price": 0,
+        "location": "pond",
+        "time": { "start": "0900", "end": "1600" },
+        "months": {
+            "northern": [6, 7, 8],
+            "southern": [12, 1, 2]
+        }
+    },
+    "guppy": {
+        "price": 1300,
+        "location": "river",
+        "time": { "start": "0900", "end": "1600" },
+        "months": {
+            "northern": [4, 5, 6, 7, 8, 9, 10, 11],
+            "southern": [10, 11, 1, 2, 3, 4, 5]
         }
     },
     "killifish": {
         "price": 300,
         "location": "pond",
-        "time": {
-            "start": "0000",
-            "end": "0000"
-        },
+        "time": { "start": "0000", "end": "0000" },
         "months": {
             "northern": [4, 5, 6, 7, 8],
             "southern": [10, 11, 12, 1, 2]
         }
     },
+    "king salmon": {
+        "price": 1800,
+        "location": "river",
+        "time": { "start": "0000", "end": "0000" },
+        "months": {
+            "northern": [9],
+            "southern": [3]
+        },
+        "notes": "mounth"
+    },
     "koi": {
         "price": 4000,
         "location": "pond",
-        "time": {
-            "start": "1600",
-            "end": "0900"
-        },
+        "time": { "start": "1600", "end": "0900" },
         "months": {
             "northern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
             "southern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        }
+    },
+    "loach": {
+        "price": 400,
+        "location": "river",
+        "time": { "start": "0000", "end": "0000" },
+        "months": {
+            "northern": [3, 4, 5],
+            "southern": [9, 10, 11]
+        }
+    },
+    "mitten crab": {
+        "price": 2000,
+        "location": "river",
+        "time": { "start": "1600", "end": "0900" },
+        "months": {
+            "northern": [9, 10, 11],
+            "southern": [3, 4, 5]
+        }
+    },
+    "neon tetra": {
+        "price": 500,
+        "location": "river",
+        "time": { "start": "0900", "end": "1600" },
+        "months": {
+            "northern": [4, 5, 6, 7, 8, 9, 10, 11],
+            "southern": [10, 11, 12, 1, 2, 3, 4, 5]
+        }
+    },
+    "nibble fish": {
+        "price": 1500,
+        "location": "river",
+        "time": { "start": "0900", "end": "1600" },
+        "months": {
+            "northern": [5, 6, 7, 8, 9],
+            "southern": [11, 12, 1, 2, 3]
         }
     },
     "pale chub": {
         "price": 160,
         "location": "river",
-        "time": {
-            "start": "0900",
-            "end": "1400"
-        },
+        "time": { "start": "0900", "end": "1400" },
         "months": {
             "northern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
             "southern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        }
+    },
+    "pike": {
+        "price": 1800,
+        "location": "river",
+        "time": { "start": "0000", "end": "0000" },
+        "months": {
+            "northern": [9, 10, 11, 12],
+            "southern": [3, 4, 5, 6]
+        }
+    },
+    "pond smelt": {
+        "price": 0,
+        "location": "river",
+        "time": { "start": "0000", "end": "0000" },
+        "months": {
+            "northern": [12, 1, 2],
+            "southern": [6, 7, 8]
         }
     },
     "pop-eyed goldfish": {
         "price": 1300,
         "location": "river",
-        "time": {
-            "start": "0900",
-            "end": "1600"
-        },
+        "time": { "start": "0900", "end": "1600" },
         "months": {
             "northern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
             "southern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        }
+    },
+    "rainbowfish": {
+        "price": 800,
+        "location": "river",
+        "time": { "start": "0900", "end": "1600" },
+        "months": {
+            "northern": [5, 6, 7, 8, 9, 10],
+            "southern": [11, 12, 1, 2, 3, 4]
         }
     },
     "ranchu goldfish": {
         "price": 4500,
         "location": "pond",
-        "time": {
-            "start": "0900",
-            "end": "1600"
-        },
+        "time": { "start": "0900", "end": "1600" },
         "months": {
             "northern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
             "southern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
         }
     },
+    "salmon": {
+        "price": 700,
+        "location": "river",
+        "time": { "start": "0000", "end": "0000" },
+        "months": {
+            "northern": [9],
+            "southern": [3]
+        },
+        "notes": "mouth"
+    },
     "snapping turtle": {
         "price": 5000,
         "location": "river",
-        "time": {
-            "start": "2100",
-            "end": "0400"
-        },
+        "time": { "start": "2100", "end": "0400" },
         "months": {
             "northern": [4, 5, 6, 7, 8, 9, 10],
             "southern": [10, 11, 12, 1, 2, 3, 4]
@@ -170,25 +304,56 @@
     "soft-shelled turtle": {
         "price": 3750,
         "location": "river",
-        "time": {
-            "start": "1600",
-            "end": "0900"
-        },
+        "time": { "start": "1600", "end": "0900" },
         "months": {
             "northern": [8, 9],
             "southern": [3, 4]
         }
     },
+    "stringfish": {
+        "price": 15000,
+        "location": "river",
+        "time": { "start": "1600", "end": "0900" },
+        "months": {
+            "northern": [12, 1, 2, 3],
+            "southern": [6, 7, 8, 9]
+        },
+        "notes": "clifftop"
+    },
+    "sweetfish": {
+        "price": 900,
+        "location": "river",
+        "time": { "start": "0000", "end": "0000" },
+        "months": {
+            "northern": [7, 8, 9],
+            "southern": [12, 1, 2, 3]
+        }
+    },
     "tadpole": {
         "price": 100,
         "location": "pond",
-        "time": {
-            "start": "0000",
-            "end": "0000"
-        },
+        "time": { "start": "0000", "end": "0000" },
         "months": {
             "northern": [3, 4, 5, 6, 7],
             "southern": [9, 10, 11, 12, 1]
+        }
+    },
+    "tilapia": {
+        "price": 800,
+        "location": "river",
+        "time": { "start": "0000", "end": "0000" },
+        "months": {
+            "northern": [6, 7, 8, 9, 10],
+            "southern": [12, 1, 2, 3, 4]
+        }
+    },
+    "yellow perch": {
+        "price": 300,
+        "location": "river",
+        "time": { "start": "0000", "end": "0000" },
+        "months": {
+            "northern": [10, 11, 12, 1, 2, 3],
+            "southern": [4, 5, 6, 7, 8, 9]
         }
     }
 }

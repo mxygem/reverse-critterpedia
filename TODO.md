@@ -5,7 +5,7 @@
 ### Source
 
 * [fish](https://www.ign.com/wikis/animal-crossing-new-horizons/Fish_Guide:_Fish_List,_Sell_Price,_and_Fishing_Tips#Killifish)
-  * Last fish entered: freshwater goby  
+  * Last fish entered: rainbowfish  
 * [bugs](https://www.ign.com/wikis/animal-crossing-new-horizons/Bug_Guide:_Bugs_List,_Sell_Price,_and_Bug_Catching_Tips#Bugs_Available_By_Month)
   * Last bug entered: none
 
@@ -32,7 +32,7 @@
 * Times are 24 formatted strings
 * 0000 is used in both fields to indicate "all day" creatures
 * Months are broken into respective hemispheres
-* Months are an array and meant to be displayed in a "wrap" order if month group crosses new year. i.e. [11, 12, 1, 2] instead of [1, 2, 11, 12]
+* Months are an array and meant to be displayed in a "wrap" order if month group crosses new year. i.e. [11, 12, 1, 2] instead of [1, 2, 11, 12] (maybe not)
 
 ## Commands
 
