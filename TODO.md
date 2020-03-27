@@ -5,9 +5,11 @@
 ### Source
 
 * [fish](https://www.ign.com/wikis/animal-crossing-new-horizons/Fish_Guide:_Fish_List,_Sell_Price,_and_Fishing_Tips#Killifish)
-  * Last fish entered: rainbowfish  
+  * Last fish entered: rainbowfish
+  * Need to use [this](https://www.polygon.com/animal-crossing-new-horizons-switch-acnh-guide/2020/3/23/21190775/fish-locations-times-month-day-list-critterpedia) guide to get shadow size added to data, too
 * [bugs](https://www.ign.com/wikis/animal-crossing-new-horizons/Bug_Guide:_Bugs_List,_Sell_Price,_and_Bug_Catching_Tips#Bugs_Available_By_Month)
   * Last bug entered: none
+
 
 ### Example Entry
 
